@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70C6D7A28EF4D3D000B1206 /* ProyectoGameStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C6D7928EF4D3D000B1206 /* ProyectoGameStreamApp.swift */; };
+		E70C6D7C28EF4D3D000B1206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C6D7B28EF4D3D000B1206 /* ContentView.swift */; };
+		E70C6D7E28EF4D3F000B1206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70C6D7D28EF4D3F000B1206 /* Assets.xcassets */; };
+		E70C6D8128EF4D3F000B1206 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70C6D8028EF4D3F000B1206 /* Preview Assets.xcassets */; };
+		E70C6D8B28EF4D3F000B1206 /* ProyectoGameStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C6D8A28EF4D3F000B1206 /* ProyectoGameStreamTests.swift */; };
+		E70C6D9528EF4D3F000B1206 /* ProyectoGameStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C6D9428EF4D3F000B1206 /* ProyectoGameStreamUITests.swift */; };
+		E70C6D9728EF4D3F000B1206 /* ProyectoGameStreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C6D9628EF4D3F000B1206 /* ProyectoGameStreamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E70C6D8728EF4D3F000B1206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70C6D6E28EF4D3D000B1206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70C6D7528EF4D3D000B1206;
+			remoteInfo = ProyectoGameStream;
+		};
+		E70C6D9128EF4D3F000B1206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70C6D6E28EF4D3D000B1206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70C6D7528EF4D3D000B1206;
+			remoteInfo = ProyectoGameStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E70C6D7628EF4D3D000B1206 /* ProyectoGameStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoGameStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70C6D7928EF4D3D000B1206 /* ProyectoGameStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoGameStreamApp.swift; sourceTree = "<group>"; };
+		E70C6D7B28EF4D3D000B1206 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E70C6D7D28EF4D3F000B1206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E70C6D8028EF4D3F000B1206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E70C6D8628EF4D3F000B1206 /* ProyectoGameStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoGameStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70C6D8A28EF4D3F000B1206 /* ProyectoGameStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoGameStreamTests.swift; sourceTree = "<group>"; };
+		E70C6D9028EF4D3F000B1206 /* ProyectoGameStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoGameStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70C6D9428EF4D3F000B1206 /* ProyectoGameStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoGameStreamUITests.swift; sourceTree = "<group>"; };
+		E70C6D9628EF4D3F000B1206 /* ProyectoGameStreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoGameStreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70C6D7328EF4D3D000B1206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C6D8328EF4D3F000B1206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C6D8D28EF4D3F000B1206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E70C6D6D28EF4D3D000B1206 = {
+			isa = PBXGroup;
+			children = (
+				E70C6D7828EF4D3D000B1206 /* ProyectoGameStream */,
+				E70C6D8928EF4D3F000B1206 /* ProyectoGameStreamTests */,
+				E70C6D9328EF4D3F000B1206 /* ProyectoGameStreamUITests */,
+				E70C6D7728EF4D3D000B1206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E70C6D7728EF4D3D000B1206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6D7628EF4D3D000B1206 /* ProyectoGameStream.app */,
+				E70C6D8628EF4D3F000B1206 /* ProyectoGameStreamTests.xctest */,
+				E70C6D9028EF4D3F000B1206 /* ProyectoGameStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70C6D7828EF4D3D000B1206 /* ProyectoGameStream */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6D7928EF4D3D000B1206 /* ProyectoGameStreamApp.swift */,
+				E70C6D7B28EF4D3D000B1206 /* ContentView.swift */,
+				E70C6D7D28EF4D3F000B1206 /* Assets.xcassets */,
+				E70C6D7F28EF4D3F000B1206 /* Preview Content */,
+			);
+			path = ProyectoGameStream;
+			sourceTree = "<group>";
+		};
+		E70C6D7F28EF4D3F000B1206 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6D8028EF4D3F000B1206 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E70C6D8928EF4D3F000B1206 /* ProyectoGameStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6D8A28EF4D3F000B1206 /* ProyectoGameStreamTests.swift */,
+			);
+			path = ProyectoGameStreamTests;
+			sourceTree = "<group>";
+		};
+		E70C6D9328EF4D3F000B1206 /* ProyectoGameStreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6D9428EF4D3F000B1206 /* ProyectoGameStreamUITests.swift */,
+				E70C6D9628EF4D3F000B1206 /* ProyectoGameStreamUITestsLaunchTests.swift */,
+			);
+			path = ProyectoGameStreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E70C6D7528EF4D3D000B1206 /* ProyectoGameStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70C6D9A28EF4D3F000B1206 /* Build configuration list for PBXNativeTarget "ProyectoGameStream" */;
+			buildPhases = (
+				E70C6D7228EF4D3D000B1206 /* Sources */,
+				E70C6D7328EF4D3D000B1206 /* Frameworks */,
+				E70C6D7428EF4D3D000B1206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoGameStream;
+			productName = ProyectoGameStream;
+			productReference = E70C6D7628EF4D3D000B1206 /* ProyectoGameStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E70C6D8528EF4D3F000B1206 /* ProyectoGameStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70C6D9D28EF4D3F000B1206 /* Build configuration list for PBXNativeTarget "ProyectoGameStreamTests" */;
+			buildPhases = (
+				E70C6D8228EF4D3F000B1206 /* Sources */,
+				E70C6D8328EF4D3F000B1206 /* Frameworks */,
+				E70C6D8428EF4D3F000B1206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70C6D8828EF4D3F000B1206 /* PBXTargetDependency */,
+			);
+			name = ProyectoGameStreamTests;
+			productName = ProyectoGameStreamTests;
+			productReference = E70C6D8628EF4D3F000B1206 /* ProyectoGameStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E70C6D8F28EF4D3F000B1206 /* ProyectoGameStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70C6DA028EF4D3F000B1206 /* Build configuration list for PBXNativeTarget "ProyectoGameStreamUITests" */;
+			buildPhases = (
+				E70C6D8C28EF4D3F000B1206 /* Sources */,
+				E70C6D8D28EF4D3F000B1206 /* Frameworks */,
+				E70C6D8E28EF4D3F000B1206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70C6D9228EF4D3F000B1206 /* PBXTargetDependency */,
+			);
+			name = ProyectoGameStreamUITests;
+			productName = ProyectoGameStreamUITests;
+			productReference = E70C6D9028EF4D3F000B1206 /* ProyectoGameStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70C6D6E28EF4D3D000B1206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E70C6D7528EF4D3D000B1206 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					E70C6D8528EF4D3F000B1206 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E70C6D7528EF4D3D000B1206;
+					};
+					E70C6D8F28EF4D3F000B1206 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E70C6D7528EF4D3D000B1206;
+					};
+				};
+			};
+			buildConfigurationList = E70C6D7128EF4D3D000B1206 /* Build configuration list for PBXProject "ProyectoGameStream" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E70C6D6D28EF4D3D000B1206;
+			productRefGroup = E70C6D7728EF4D3D000B1206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E70C6D7528EF4D3D000B1206 /* ProyectoGameStream */,
+				E70C6D8528EF4D3F000B1206 /* ProyectoGameStreamTests */,
+				E70C6D8F28EF4D3F000B1206 /* ProyectoGameStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70C6D7428EF4D3D000B1206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C6D8128EF4D3F000B1206 /* Preview Assets.xcassets in Resources */,
+				E70C6D7E28EF4D3F000B1206 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C6D8428EF4D3F000B1206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C6D8E28EF4D3F000B1206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E70C6D7228EF4D3D000B1206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C6D7C28EF4D3D000B1206 /* ContentView.swift in Sources */,
+				E70C6D7A28EF4D3D000B1206 /* ProyectoGameStreamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C6D8228EF4D3F000B1206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C6D8B28EF4D3F000B1206 /* ProyectoGameStreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C6D8C28EF4D3F000B1206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C6D9528EF4D3F000B1206 /* ProyectoGameStreamUITests.swift in Sources */,
+				E70C6D9728EF4D3F000B1206 /* ProyectoGameStreamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E70C6D8828EF4D3F000B1206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70C6D7528EF4D3D000B1206 /* ProyectoGameStream */;
+			targetProxy = E70C6D8728EF4D3F000B1206 /* PBXContainerItemProxy */;
+		};
+		E70C6D9228EF4D3F000B1206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70C6D7528EF4D3D000B1206 /* ProyectoGameStream */;
+			targetProxy = E70C6D9128EF4D3F000B1206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E70C6D9828EF4D3F000B1206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E70C6D9928EF4D3F000B1206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70C6D9B28EF4D3F000B1206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProyectoGameStream/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dolman.ProyectoGameStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70C6D9C28EF4D3F000B1206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProyectoGameStream/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dolman.ProyectoGameStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E70C6D9E28EF4D3F000B1206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dolman.ProyectoGameStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoGameStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProyectoGameStream";
+			};
+			name = Debug;
+		};
+		E70C6D9F28EF4D3F000B1206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dolman.ProyectoGameStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoGameStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProyectoGameStream";
+			};
+			name = Release;
+		};
+		E70C6DA128EF4D3F000B1206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dolman.ProyectoGameStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoGameStream;
+			};
+			name = Debug;
+		};
+		E70C6DA228EF4D3F000B1206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dolman.ProyectoGameStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoGameStream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E70C6D7128EF4D3D000B1206 /* Build configuration list for PBXProject "ProyectoGameStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70C6D9828EF4D3F000B1206 /* Debug */,
+				E70C6D9928EF4D3F000B1206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70C6D9A28EF4D3F000B1206 /* Build configuration list for PBXNativeTarget "ProyectoGameStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70C6D9B28EF4D3F000B1206 /* Debug */,
+				E70C6D9C28EF4D3F000B1206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70C6D9D28EF4D3F000B1206 /* Build configuration list for PBXNativeTarget "ProyectoGameStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70C6D9E28EF4D3F000B1206 /* Debug */,
+				E70C6D9F28EF4D3F000B1206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70C6DA028EF4D3F000B1206 /* Build configuration list for PBXNativeTarget "ProyectoGameStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70C6DA128EF4D3F000B1206 /* Debug */,
+				E70C6DA228EF4D3F000B1206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E70C6D6E28EF4D3D000B1206 /* Project object */;
+}
